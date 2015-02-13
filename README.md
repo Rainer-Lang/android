@@ -1,0 +1,2 @@
+# android
+Common Utils library is developed to reduce efforts to achieve common features of the android apps. While developing the apps, we realized that we’re coding for many common features in all the apps. For e.g. check the network’s availability, using shared preferences, parsing, etc. And like us, many other android developers might be doing the same. So it needs to be reduced for all to save the development time with ease. This is how an idea popped in our mind, and we decided to develop an SDK which can reduce developers’ time and efforts.
