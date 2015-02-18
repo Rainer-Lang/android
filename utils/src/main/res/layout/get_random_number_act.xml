@@ -10,7 +10,7 @@
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="20dp"
-        android:text="Random Number"
+        android:text="Random number"
         android:textAppearance="?android:attr/textAppearanceLarge" />
 
     <TextView
@@ -31,7 +31,7 @@
         android:layout_marginTop="78dp"
         android:layout_toRightOf="@id/tvnumber"
         android:ems="10"
-        android:hint="Enter Max value"
+        android:hint="Enter max value"
         android:inputType="number"
         android:singleLine="true" />
 
@@ -43,7 +43,7 @@
         android:layout_below="@+id/et_MaxRandomNumber"
         android:layout_centerHorizontal="true"
         android:padding="10dp"
-        android:text="Your Random Number will generate from 0 to "
+        android:text="Your random number will generate from 0 to "
         android:textAppearance="?android:attr/textAppearanceMedium" />
 
     <TextView
@@ -52,7 +52,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/tvInfo"
         android:padding="10dp"
-        android:text="Your Number"
+        android:text="Your number"
         android:textAppearance="?android:attr/textAppearanceLarge" />
 
     <Button

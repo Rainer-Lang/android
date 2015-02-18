@@ -47,7 +47,7 @@ public class DownloadImageFromUrlAct extends Activity {
                 if (Common.isNetworkAvailable(mContext)) {
                     btnDownLoadImage.setEnabled(false);
                     String imgUrl = "http://www.sbsmobile.com/siteimg/cat-menu/galaxyS5.png";
-                    Toast.makeText(mContext, "Downloading", Toast.LENGTH_LONG).show();
+                    Toast.makeText(mContext, "Please wait downloading..!", Toast.LENGTH_LONG).show();
                     Common.downloadImageFromURL(imgUrl, ivDownLoadImage);
                 } else {
                     Common.showNETWORDDisabledAlert(mContext);

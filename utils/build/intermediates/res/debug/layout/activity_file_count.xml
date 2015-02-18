@@ -23,7 +23,7 @@
         android:layout_below="@+id/tvTitle"
         android:layout_marginTop="20dp"
         android:padding="10dp"
-        android:text="Default Folder is :  mnt/sdcard"
+        android:text="Default folder is :  mnt/sdcard"
         android:textAppearance="?android:attr/textAppearanceMedium" />
 
     <TextView
@@ -107,4 +107,4 @@
 
 
 </RelativeLayout>
-<!-- From: file:/F:/Workspace/CommonSDK/Multidots/CommonSDKGIT/utils/src/main/res/layout/activity_file_count.xml -->
+<!-- From: file:/F:/Workspace/CommonSDK/Multidots/android/utils/src/main/res/layout/activity_file_count.xml -->

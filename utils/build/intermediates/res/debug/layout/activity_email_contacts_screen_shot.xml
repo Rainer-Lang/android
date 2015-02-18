@@ -23,7 +23,7 @@
             android:layout_height="wrap_content"
             android:background="#2050aa"
             android:padding="15dp"
-            android:text="Capture Screen"
+            android:text="Capture screen"
             android:textAppearance="?android:attr/textAppearanceLarge"
             android:textColor="@android:color/white" />
     </com.andexert.library.RippleView>
@@ -42,4 +42,4 @@
     </ScrollView>
 
 </LinearLayout>
-<!-- From: file:/F:/Workspace/CommonSDK/Multidots/CommonSDKGIT/utils/src/main/res/layout/activity_email_contacts_screen_shot.xml -->
+<!-- From: file:/F:/Workspace/CommonSDK/Multidots/android/utils/src/main/res/layout/activity_email_contacts_screen_shot.xml -->

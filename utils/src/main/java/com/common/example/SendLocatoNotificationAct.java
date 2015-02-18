@@ -42,7 +42,6 @@ public class SendLocatoNotificationAct extends Activity {
 
             @Override
             public void onClick(View v) {
-                // TODO Auto-generated method stub
                 String title = et_NotTitle.getText().toString();
                 String message = et_NotMsg.getText().toString();
                 Intent mIntent = new Intent(mContext, SendLocatoNotificationAct.class);

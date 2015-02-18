@@ -23,7 +23,7 @@
             android:layout_height="wrap_content"
             android:background="#2050aa"
             android:padding="15dp"
-            android:text="Capture Screen"
+            android:text="Capture screen"
             android:textAppearance="?android:attr/textAppearanceLarge"
             android:textColor="@android:color/white" />
     </com.andexert.library.RippleView>

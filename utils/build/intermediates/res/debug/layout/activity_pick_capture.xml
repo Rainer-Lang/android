@@ -40,7 +40,7 @@
         android:drawableLeft="@drawable/videopick"
         android:drawablePadding="10dp"
         android:padding="15dp"
-        android:text="Pick Video        "
+        android:text="Pick video        "
         android:textAppearance="?android:attr/textAppearanceMedium" />
 
 
@@ -52,7 +52,7 @@
         android:drawableLeft="@drawable/videorecord"
         android:drawablePadding="10dp"
         android:padding="15dp"
-        android:text="Capture Video  "
+        android:text="Capture video  "
         android:textAppearance="?android:attr/textAppearanceMedium" />
 
 
@@ -70,4 +70,4 @@
         android:visibility="gone" />
 
 </LinearLayout>
-<!-- From: file:/F:/Workspace/CommonSDK/Multidots/CommonSDKGIT/utils/src/main/res/layout/activity_pick_capture.xml -->
+<!-- From: file:/F:/Workspace/CommonSDK/Multidots/android/utils/src/main/res/layout/activity_pick_capture.xml -->

@@ -1,6 +1,7 @@
 package com.common.example;
 
 import android.app.Activity;
+import android.app.ProgressDialog;
 import android.graphics.Bitmap;
 import android.os.Bundle;
 import android.os.Environment;
@@ -37,6 +38,9 @@ public class EmailContactsScreenShotActivity extends Activity {
         findViewById(R.id.screenshot).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                ProgressDialog progressDialog = new ProgressDialog(EmailContactsScreenShotActivity.this);
+                progressDialog.setMessage("Please wait");
+                progressDialog.show();
                 Bitmap b = Common.captureView(tvEmails);
 //                ImageView ivEmail = (ImageView) findViewById(R.id.email_iv_screen);
 //                ivEmail.setImageBitmap(b);
@@ -47,12 +51,13 @@ public class EmailContactsScreenShotActivity extends Activity {
                     dir.mkdirs();
                 File file = new File(dir, "ScreenShot" + Calendar.getInstance().getTime() + ".png");
                 FileOutputStream fOut = null;
+                progressDialog.dismiss();
                 try {
                     fOut = new FileOutputStream(file);
                     b.compress(Bitmap.CompressFormat.PNG, 85, fOut);
                     fOut.flush();
                     fOut.close();
-                    Common.showAlertDialog(EmailContactsScreenShotActivity.this, getString(R.string.app_name), "ScreenShot saved in " + file.getPath(), false);
+                    Common.showAlertDialog(EmailContactsScreenShotActivity.this, getString(R.string.app_name), "Screenshot saved in " + file.getPath(), false);
                 } catch (FileNotFoundException e) {
                     e.printStackTrace();
                 } catch (IOException e) {

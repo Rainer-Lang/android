@@ -113,7 +113,6 @@ public class MainActivity extends Activity {
                 "Social integration",/* 45 */
                 "Pick color",/* 46 */
                 "Remote file size or download file"/* 46 */
-
         };
 
         sdkFunctionalityList = (ListView) findViewById(R.id.Md_list_company);
@@ -160,7 +159,7 @@ public class MainActivity extends Activity {
                 intent = new Intent(mContext, DateFormateAct.class);
                 break;
             case 3:
-                Common.showAlertDialog(this, "", "Your device id is: " + Common.getDeviceId(mContext), false);
+                Common.showAlertDialog(this, "", "Your device id is: " + Common.getDeviceId(mContext) + ".", false);
                 break;
             case 4:
                 intent = new Intent(mContext, SetPrefAct.class);
@@ -169,6 +168,7 @@ public class MainActivity extends Activity {
                 intent = new Intent(mContext, GetPrefAct.class);
                 break;
             case 6:
+//                TODO get location from cellular network
                 intent = new Intent(mContext, GetCurrentLocationAct.class);
                 break;
             case 7:
@@ -225,10 +225,10 @@ public class MainActivity extends Activity {
 //                tvText.setText("Date in milliseconds : " + Common.stringToDate("01/12/2014", "dd/MM/yyyy").getTime());
                 break;
             case 23:
-                Common.showAlertDialog(this, getString(R.string.app_name), "Your device height is: " + Common.getDeviceHeight(mContext), false);
+                Common.showAlertDialog(this, getString(R.string.app_name), "Your device height is: " + Common.getDeviceHeight(mContext) + ".", false);
                 break;
             case 24:
-                Common.showAlertDialog(this, getString(R.string.app_name), "Your device width is: " + Common.getDeviceWidth(mContext), false);
+                Common.showAlertDialog(this, getString(R.string.app_name), "Your device width is: " + Common.getDeviceWidth(mContext) + ".", false);
                 break;
             case 25:
                 intent = new Intent(mContext, GetRandomNumberAct.class);
@@ -256,19 +256,19 @@ public class MainActivity extends Activity {
                 intent = new Intent(mContext, SaveImageInPreference.class);
                 break;
             case 33:
-                Common.showAlertDialog(this, getString(R.string.app_name), "Your application version is: " + Common.getAppVersionCode(mContext), false);
+                Common.showAlertDialog(this, getString(R.string.app_name), "Your application version is: " + Common.getAppVersionCode(mContext) + ".", false);
                 break;
             case 34:
                 intent = new Intent(mContext, VerticalTextViewsActivity.class);
                 break;
             case 35:
                 if (Common.isSDCardAvailable(mContext))
-                    Common.showAlertDialog(this, getString(R.string.app_name), "SDCard is available ", false);
+                    Common.showAlertDialog(this, getString(R.string.app_name), "SDCard is available.", false);
                 else
-                    Common.showAlertDialog(this, getString(R.string.app_name), "SDCard is not available ", false);
+                    Common.showAlertDialog(this, getString(R.string.app_name), "SDCard is not available.", false);
                 break;
             case 36:
-                Common.openShareDialog(mContext, "Share Title", "", "Share Text", "Share Subject");
+                Common.openShareDialog(mContext, "Share title", "", "Share text", "Share subject");
                 break;
             case 37:
                 intent = new Intent(mContext, ChooseProfileActivity.class);
@@ -298,7 +298,7 @@ public class MainActivity extends Activity {
                 break;
             case 45:
 //                intent = new Intent(mContext, com.common.example.CommonActivity.class);
-                Common.showAlertDialog(mContext, getString(R.string.app_name), "Coming soon", false);
+                Common.showAlertDialog(mContext, getString(R.string.app_name), "Coming soon.", false);
                 break;
             case 46:
                 intent = new Intent(mContext, ColorPickerActivity.class);

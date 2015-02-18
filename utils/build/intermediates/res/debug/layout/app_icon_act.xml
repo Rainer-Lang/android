@@ -15,8 +15,8 @@
 
     <ImageView
         android:id="@+id/ivAppIcon"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true" />
 
@@ -30,4 +30,5 @@
         android:text="Get Application Icon"
         android:textAppearance="?android:attr/textAppearanceMedium" />
 
-</RelativeLayout><!-- From: file:/F:/Workspace/CommonSDK/Multidots/CommonSDKGIT/utils/src/main/res/layout/app_icon_act.xml -->
+</RelativeLayout>
+<!-- From: file:/F:/Workspace/CommonSDK/Multidots/android/utils/src/main/res/layout/app_icon_act.xml -->

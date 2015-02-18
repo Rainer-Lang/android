@@ -19,7 +19,7 @@
         android:layout_height="wrap_content"
         android:layout_alignLeft="@+id/btnWifiOnOff"
         android:layout_marginTop="43dp"
-        android:text="Bluetooth Off"
+        android:text="Bluetooth off"
         android:textAppearance="?android:attr/textAppearanceMedium" />
 
     <Button
@@ -29,8 +29,9 @@
         android:layout_below="@+id/btnBluetoothOnOff"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="32dp"
-        android:text="Wifi Off"
+        android:text="Wifi off"
         android:textAppearance="?android:attr/textAppearanceMedium" />
 
 
-</RelativeLayout><!-- From: file:/F:/Workspace/CommonSDK/Multidots/CommonSDKGIT/utils/src/main/res/layout/bluetooth_on_off.xml -->
+</RelativeLayout>
+<!-- From: file:/F:/Workspace/CommonSDK/Multidots/android/utils/src/main/res/layout/bluetooth_on_off.xml -->

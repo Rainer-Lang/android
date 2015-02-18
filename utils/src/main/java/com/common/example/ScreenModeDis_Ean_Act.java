@@ -29,16 +29,14 @@ public class ScreenModeDis_Ean_Act extends Activity {
     }
 
     private void init() {
-        // TODO Auto-generated method stub
         btnDisable = (Button) findViewById(R.id.btnDisable);
         btnEnable = (Button) findViewById(R.id.btnEnable);
         btnDisable.setOnClickListener(new OnClickListener() {
 
             @Override
             public void onClick(View v) {
-                // TODO Auto-generated method stub
                 Common.disableSleepMode(mContext);
-                Common.showAlertDialog(mContext, getString(R.string.app_name), "Screen Sleep mode Disable.", false);
+                Common.showAlertDialog(mContext, getString(R.string.app_name), "Screen sleep mode disabled.", false);
                 btnEnable.setEnabled(true);
                 btnDisable.setEnabled(false);
             }
@@ -48,9 +46,8 @@ public class ScreenModeDis_Ean_Act extends Activity {
 
             @Override
             public void onClick(View v) {
-                // TODO Auto-generated method stub
                 Common.enableSleepMode();
-                Common.showAlertDialog(mContext, getString(R.string.app_name), "Screen Sleep mode Enable.", false);
+                Common.showAlertDialog(mContext, getString(R.string.app_name), "Screen sleep mode enabled.", false);
                 btnEnable.setEnabled(false);
                 btnDisable.setEnabled(true);
             }

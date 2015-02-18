@@ -40,7 +40,7 @@
         android:drawableLeft="@drawable/videopick"
         android:drawablePadding="10dp"
         android:padding="15dp"
-        android:text="Pick Video        "
+        android:text="Pick video        "
         android:textAppearance="?android:attr/textAppearanceMedium" />
 
 
@@ -52,7 +52,7 @@
         android:drawableLeft="@drawable/videorecord"
         android:drawablePadding="10dp"
         android:padding="15dp"
-        android:text="Capture Video  "
+        android:text="Capture video  "
         android:textAppearance="?android:attr/textAppearanceMedium" />
 
 

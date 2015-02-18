@@ -10,7 +10,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:text="Music on off."
+        android:text="Music on off"
         android:textAppearance="?android:attr/textAppearanceLarge" />
 
     <Button
@@ -18,7 +18,7 @@
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="48dp"
-        android:text="Music Start"
+        android:text="Start music"
         android:textAppearance="?android:attr/textAppearanceMedium" />
 
     <Button
@@ -28,7 +28,8 @@
         android:layout_alignLeft="@+id/btnStart"
         android:layout_below="@+id/btnStart"
         android:enabled="false"
-        android:text="Music Stop"
+        android:text="Stop music"
         android:textAppearance="?android:attr/textAppearanceMedium" />
 
-</RelativeLayout><!-- From: file:/F:/Workspace/CommonSDK/Multidots/CommonSDKGIT/utils/src/main/res/layout/background_music_start_stop.xml -->
+</RelativeLayout>
+<!-- From: file:/F:/Workspace/CommonSDK/Multidots/android/utils/src/main/res/layout/background_music_start_stop.xml -->

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- From: file:/F:/Workspace/CommonSDK/Multidots/CommonSDKGIT/utils/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
+    <!-- From: file:/F:/Workspace/CommonSDK/Multidots/android/utils/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
     <eat-comment/>
     <attr format="reference" name="drawerArrowStyle"/>
     <attr format="dimension" name="height"/>
@@ -53,10 +53,10 @@
     <color name="primary_text_default_material_light">#de000000</color>
     <color name="primary_text_disabled_material_dark">#4Dffffff</color>
     <color name="primary_text_disabled_material_light">#39000000</color>
-    <!-- From: file:/F:/Workspace/CommonSDK/Multidots/CommonSDKGIT/utils/build/intermediates/exploded-aar/com.github.traex.rippleeffect/library/1.2.3/res/values/values.xml -->
+    <!-- From: file:/F:/Workspace/CommonSDK/Multidots/android/utils/build/intermediates/exploded-aar/com.github.traex.rippleeffect/library/1.2.3/res/values/values.xml -->
     <eat-comment/>
     <color name="rippelColor">#FFFFFF</color>
-    <!-- From: file:/F:/Workspace/CommonSDK/Multidots/CommonSDKGIT/utils/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
+    <!-- From: file:/F:/Workspace/CommonSDK/Multidots/android/utils/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
     <eat-comment/>
     <color name="ripple_material_dark">#40ffffff</color>
     <color name="ripple_material_light">#40000000</color>
@@ -127,11 +127,11 @@
     <dimen name="abc_text_size_subtitle_material_toolbar">16dp</dimen>
     <dimen name="abc_text_size_title_material">20sp</dimen>
     <dimen name="abc_text_size_title_material_toolbar">20dp</dimen>
-    <!-- From: file:/F:/Workspace/CommonSDK/Multidots/CommonSDKGIT/utils/src/main/res/values/dimens.xml -->
+    <!-- From: file:/F:/Workspace/CommonSDK/Multidots/android/utils/src/main/res/values/dimens.xml -->
     <eat-comment/>
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
-    <!-- From: file:/F:/Workspace/CommonSDK/Multidots/CommonSDKGIT/utils/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
+    <!-- From: file:/F:/Workspace/CommonSDK/Multidots/android/utils/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
     <eat-comment/>
     <item name="dialog_fixed_height_major" type="dimen">80%</item>
     <item name="dialog_fixed_height_minor" type="dimen">100%</item>
@@ -165,7 +165,7 @@
     <string name="abc_shareactionprovider_share_with">Share with</string>
     <string name="abc_shareactionprovider_share_with_application">Share with %s</string>
     <string name="abc_toolbar_collapse_description">Collapse</string>
-    <!-- From: file:/F:/Workspace/CommonSDK/Multidots/CommonSDKGIT/utils/src/main/res/values/strings.xml -->
+    <!-- From: file:/F:/Workspace/CommonSDK/Multidots/android/utils/src/main/res/values/strings.xml -->
     <eat-comment/>
     <string name="action_settings">Settings</string>
     <string name="app_name">Utils Example</string>
@@ -190,7 +190,7 @@
     <string name="title_activity_toast">ToastActivity</string>
     <string name="title_activity_vertical_text_views">VerticalTextViewsActivity</string>
     <string name="title_activity_volume">VolumeActivity</string>
-    <!-- From: file:/F:/Workspace/CommonSDK/Multidots/CommonSDKGIT/utils/src/main/res/values/styles.xml -->
+    <!-- From: file:/F:/Workspace/CommonSDK/Multidots/android/utils/src/main/res/values/styles.xml -->
     <eat-comment/>
     <style name="AppBaseTheme" parent="Theme.AppCompat.Light.DarkActionBar">
         <!--
@@ -202,7 +202,7 @@
     <style name="AppTheme" parent="AppBaseTheme">
         <!-- All customizations that are NOT specific to a particular API-level can go here. -->
     </style>
-    <!-- From: file:/F:/Workspace/CommonSDK/Multidots/CommonSDKGIT/utils/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
+    <!-- From: file:/F:/Workspace/CommonSDK/Multidots/android/utils/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
     <eat-comment/>
     <style name="Base.TextAppearance.AppCompat" parent="android:TextAppearance">
         <item name="android:textColor">?android:textColorPrimary</item>

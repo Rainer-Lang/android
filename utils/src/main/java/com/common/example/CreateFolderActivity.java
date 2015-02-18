@@ -22,7 +22,6 @@ public class CreateFolderActivity extends Activity {
         setContentView(R.layout.activity_create_folder);
         mContext = CreateFolderActivity.this;
         init();
-
     }
 
     private void init() {
@@ -37,15 +36,15 @@ public class CreateFolderActivity extends Activity {
                 if (Common.isEmptyEditText(et_Url)) {
                     boolean created = Common.createFolder(mContext, Environment.getExternalStorageDirectory().getPath(), "TestFolder");
                     if (created)
-                        Common.showAlertDialog(mContext, getString(R.string.app_name), "Folder Created  " + Environment.getExternalStorageDirectory().getPath() + "/TestFolder", false);
+                        Common.showAlertDialog(mContext, getString(R.string.app_name), "Folder created  " + Environment.getExternalStorageDirectory().getPath() + "/TestFolder", false);
                     else
-                        Common.showAlertDialog(mContext, getString(R.string.app_name), "Folder Not Created OR Folder is already Created", false);
+                        Common.showAlertDialog(mContext, getString(R.string.app_name), "Folder not created or folder is already created", false);
                 } else {
                     boolean created = Common.createFolder(mContext, Environment.getExternalStorageDirectory().getPath(), et_Url.getText().toString());
                     if (created)
-                        Common.showAlertDialog(mContext, getString(R.string.app_name), "Folder Created  " + Environment.getExternalStorageDirectory().getPath() + "/" + et_Url.getText().toString(), false);
+                        Common.showAlertDialog(mContext, getString(R.string.app_name), "Folder created  " + Environment.getExternalStorageDirectory().getPath() + "/" + et_Url.getText().toString(), false);
                     else
-                        Common.showAlertDialog(mContext, getString(R.string.app_name), "Folder Not Created OR Folder is already Created", false);
+                        Common.showAlertDialog(mContext, getString(R.string.app_name), "Folder not created or folder is already created", false);
                 }
             }
 

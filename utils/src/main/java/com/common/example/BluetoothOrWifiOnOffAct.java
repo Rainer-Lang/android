@@ -39,19 +39,19 @@ public class BluetoothOrWifiOnOffAct extends Activity {
 
         BluetoothAdapter mBluetoothAdapter = BluetoothAdapter.getDefaultAdapter();
         if (mBluetoothAdapter.isEnabled()) {
-            btnBluetoothOnOff.setText("Bluetooth On");
+            btnBluetoothOnOff.setText("Bluetooth on");
             isBluetooth = false;
         } else {
             isBluetooth = true;
-            btnBluetoothOnOff.setText("Bluetooth Off");
+            btnBluetoothOnOff.setText("Bluetooth off");
         }
 
         WifiManager wm = ((WifiManager) mContext.getSystemService(Context.WIFI_SERVICE));
         if (wm.isWifiEnabled()) {
-            btnWifiOnOff.setText("Wifi On");
+            btnWifiOnOff.setText("Wifi on");
             isWifi = false;
         } else {
-            btnWifiOnOff.setText("Wifi Off");
+            btnWifiOnOff.setText("Wifi off");
             isWifi = true;
         }
 
@@ -61,12 +61,12 @@ public class BluetoothOrWifiOnOffAct extends Activity {
             public void onClick(View v) {
                 if (isBluetooth) {
                     Common.onBlueTooth("on");
-                    btnBluetoothOnOff.setText("Bluetooth On");
+                    btnBluetoothOnOff.setText("Bluetooth on");
                     isBluetooth = false;
                 } else {
                     Common.onBlueTooth("off");
                     isBluetooth = true;
-                    btnBluetoothOnOff.setText("Bluetooth Off");
+                    btnBluetoothOnOff.setText("Bluetooth off");
                 }
             }
         });
@@ -78,11 +78,11 @@ public class BluetoothOrWifiOnOffAct extends Activity {
                 // TODO Auto-generated method stub
                 if (isWifi) {
                     Common.onWifi(mContext, "on");
-                    btnWifiOnOff.setText("Wifi On");
+                    btnWifiOnOff.setText("Wifi on");
                     isWifi = false;
                 } else {
                     Common.onWifi(mContext, "off");
-                    btnWifiOnOff.setText("Wifi Off");
+                    btnWifiOnOff.setText("Wifi off");
                     isWifi = true;
                 }
 

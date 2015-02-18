@@ -400,7 +400,7 @@ public class Common {
 
             if (!isGPSEnabled && !isNetworkEnabled) {
                 // no network provider is enabled
-
+//                Common.showGPSDisabledAlert("Please enable your location or connect to cellular network.", context);
             } else {
                 if (isNetworkEnabled) {
                     Log.d("Network", "Network");
@@ -507,6 +507,7 @@ public class Common {
                     .setContentTitle(message)
                     .setStyle(new Notification.BigTextStyle().bigText(message))
                     .setAutoCancel(true)
+                    .setContentText(message)
                     .setContentIntent(PendingIntent.getActivity(mContext, 0, new Intent(), 0))
                     .getNotification();
 
@@ -514,6 +515,7 @@ public class Common {
             notification = new Notification.Builder(mContext)
                     .setSmallIcon(appIconResId).setWhen(System.currentTimeMillis())
                     .setContentTitle(message)
+                    .setContentText(message)
                     .setAutoCancel(true)
                     .setStyle(new Notification.BigTextStyle().bigText(message))
                     .setContentIntent(pIntent).getNotification();

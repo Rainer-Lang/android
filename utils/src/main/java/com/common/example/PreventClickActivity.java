@@ -15,7 +15,7 @@ public class PreventClickActivity extends Activity {
 
         TextView tvCode = (TextView) findViewById(R.id.prevent_double_click_tv_code);
         tvCode.setText(
-                " \n \t Code to Prevent View from getting clicked more than once \n\n" +
+                " \n \t Code to prevent view from getting clicked more than once \n\n" +
                         " /**\n" +
                         "     * Preventing any view from getting clicked for particular time\n" +
                         "     *\n" +

@@ -42,9 +42,9 @@ public class PostFixForNumberAct extends Activity {
             public void onClick(View v) {
                 if (!Common.isEmptyEditText(et_FixNumber)) {
                     int postfixNumber = Integer.parseInt(et_FixNumber.getText().toString());
-                    tvFixNumber.setText("Postfix Number : " + Common.getPostFixForNumber(postfixNumber));
+                    tvFixNumber.setText("Postfix number : " + Common.getPostFixForNumber(postfixNumber));
                 } else {
-                    Toast.makeText(mContext, "Please Enter number for postfix", Toast.LENGTH_LONG).show();
+                    Toast.makeText(mContext, "Please enter number for postfix", Toast.LENGTH_LONG).show();
                 }
             }
         });

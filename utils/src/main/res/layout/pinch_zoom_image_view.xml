@@ -10,7 +10,7 @@
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="20dp"
-        android:text="PinZoom Image"
+        android:text="Pinch zoom image"
         android:textAppearance="?android:attr/textAppearanceLarge" />
 
     <ImageView
@@ -19,6 +19,7 @@
         android:layout_height="match_parent"
         android:layout_below="@+id/tvTitle"
         android:scaleType="matrix"
-        android:src="@drawable/airdroid" />
+        android:src="@drawable/androidzoom" />
 
 </RelativeLayout>
+

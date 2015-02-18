@@ -12,7 +12,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="20dp"
         android:padding="10dp"
-        android:text="Show Address on Map"
+        android:text="Show address on map"
         android:textAppearance="?android:attr/textAppearanceLarge" />
 
     <TextView
@@ -23,7 +23,7 @@
         android:layout_below="@+id/tvTitle"
         android:layout_marginTop="20dp"
         android:padding="10dp"
-        android:text="Default Address is :  Ahmedabad, Gujarat."
+        android:text="Default address is :  Ahmedabad, Gujarat."
         android:textAppearance="?android:attr/textAppearanceMedium" />
 
     <TextView
@@ -44,7 +44,7 @@
         android:layout_marginTop="20dp"
         android:layout_toRightOf="@id/tv_address"
         android:ems="10"
-        android:hint="Enter your Address here"
+        android:hint="Enter your address here"
         android:inputType="textUri"
         android:singleLine="true" />
 

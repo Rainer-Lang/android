@@ -10,7 +10,7 @@
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="19dp"
-        android:text="EditText Validations"
+        android:text="Edittext validations"
         android:textAppearance="?android:attr/textAppearanceLarge" />
 
     <EditText
@@ -19,7 +19,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/textView1"
         android:layout_marginTop="10dp"
-        android:hint="Enter Text"
+        android:hint="Enter text"
         android:inputType="textEmailAddress"
         android:singleLine="true" />
 
@@ -30,7 +30,7 @@
         android:layout_alignLeft="@+id/etValidation"
         android:layout_below="@+id/etValidation"
         android:layout_marginTop="31dp"
-        android:text="Check empty EditText"
+        android:text="Check empty edittext"
         android:textAppearance="?android:attr/textAppearanceMedium" />
 
     <Button
@@ -38,7 +38,7 @@
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:layout_centerVertical="true"
-        android:text="E-Mail Validation"
+        android:text="Email validation"
         android:textAppearance="?android:attr/textAppearanceMedium" />
 
 </RelativeLayout>

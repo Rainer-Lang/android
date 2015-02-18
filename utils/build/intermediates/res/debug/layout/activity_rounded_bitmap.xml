@@ -12,7 +12,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Normal Bitmap"
+        android:text="Normal bitmap"
         android:textAppearance="?android:attr/textAppearanceMedium" />
 
     <ImageView
@@ -25,7 +25,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Rounded Bitmap"
+        android:text="Rounded bitmap"
         android:textAppearance="?android:attr/textAppearanceMedium" />
 
     <ImageView
@@ -36,4 +36,4 @@
         android:layout_margin="20dp" />
 
 </LinearLayout>
-<!-- From: file:/F:/Workspace/CommonSDK/Multidots/CommonSDKGIT/utils/src/main/res/layout/activity_rounded_bitmap.xml -->
+<!-- From: file:/F:/Workspace/CommonSDK/Multidots/android/utils/src/main/res/layout/activity_rounded_bitmap.xml -->

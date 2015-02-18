@@ -47,7 +47,7 @@ public class ToastActivity extends Activity {
 
     private void showDialogOrToast(boolean toast) {
         if (Common.isEmptyEditText(et_Url)) {
-            Common.showAlertDialog(mContext, getString(R.string.app_name), "Hello World!", toast);
+            Common.showAlertDialog(mContext, getString(R.string.app_name), "Hello world!", toast);
         } else {
             Common.showAlertDialog(mContext, getString(R.string.app_name), et_Url.getText().toString(), toast);
         }

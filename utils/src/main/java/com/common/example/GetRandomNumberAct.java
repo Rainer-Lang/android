@@ -38,13 +38,12 @@ public class GetRandomNumberAct extends Activity {
 
             @Override
             public void onClick(View v) {
-                // TODO Auto-generated method stub
                 if (!Common.isEmptyEditText(et_MaxRandomNumber)) {
-                    tvInfo.setText("Your Random Number will generate from 0 to " + et_MaxRandomNumber.getText().toString());
+                    tvInfo.setText("Your random number will generate from 0 to " + et_MaxRandomNumber.getText().toString());
                     int randNumber = Integer.parseInt(et_MaxRandomNumber.getText().toString());
-                    tvRandomNumber.setText("Random Number : " + Common.getRandom(randNumber));
+                    tvRandomNumber.setText("Random number : " + Common.getRandom(randNumber));
                 } else {
-                    Toast.makeText(mContext, "Please Enter Maximum number for random value", Toast.LENGTH_LONG).show();
+                    Toast.makeText(mContext, "Please enter maximum number for random value", Toast.LENGTH_LONG).show();
                 }
             }
         });

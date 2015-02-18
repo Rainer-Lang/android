@@ -10,7 +10,7 @@
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="19dp"
-        android:text="Get Current Location"
+        android:text="Get current location"
         android:textAppearance="?android:attr/textAppearanceLarge" />
 
     <Button
@@ -20,7 +20,7 @@
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="73dp"
-        android:text="Get Current Location"
+        android:text="Get current location"
         android:textAppearance="?android:attr/textAppearanceMedium" />
 
     <TextView
@@ -66,4 +66,5 @@
         android:text="Longitude:"
         android:textAppearance="?android:attr/textAppearanceMedium" />
 
-</RelativeLayout><!-- From: file:/F:/Workspace/CommonSDK/Multidots/CommonSDKGIT/utils/src/main/res/layout/get_current_location.xml -->
+</RelativeLayout>
+<!-- From: file:/F:/Workspace/CommonSDK/Multidots/android/utils/src/main/res/layout/get_current_location.xml -->

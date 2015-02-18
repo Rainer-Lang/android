@@ -27,4 +27,4 @@
     android:shape="oval">
     <size android:height="20dp" android:width="20dp"/>
     <solid android:color="@color/rippelColor"/>
-</shape><!-- From: file:/C:/Users/robin.chutaux/Documents/GIT-3IE/RippleEffect/library/src/main/res/drawable/shape_rounded.xml --><!-- From: file:/F:/Workspace/CommonSDK/Multidots/CommonSDKGIT/utils/build/intermediates/exploded-aar/com.github.traex.rippleeffect/library/1.2.3/res/drawable/shape_rounded.xml -->
+</shape><!-- From: file:/C:/Users/robin.chutaux/Documents/GIT-3IE/RippleEffect/library/src/main/res/drawable/shape_rounded.xml --><!-- From: file:/F:/Workspace/CommonSDK/Multidots/android/utils/build/intermediates/exploded-aar/com.github.traex.rippleeffect/library/1.2.3/res/drawable/shape_rounded.xml -->

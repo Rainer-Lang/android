@@ -11,7 +11,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="20dp"
         android:padding="10dp"
-        android:text="Open Url In Browser"
+        android:text="Open url in browser"
         android:textAppearance="?android:attr/textAppearanceLarge" />
 
 
@@ -23,7 +23,7 @@
         android:layout_below="@+id/tvTitle"
         android:layout_marginTop="20dp"
         android:padding="10dp"
-        android:text="Default Url is :  www.multidots.com"
+        android:text="Default url is:  www.multidots.com"
         android:textAppearance="?android:attr/textAppearanceMedium" />
 
     <TextView
@@ -43,7 +43,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="20dp"
         android:ems="10"
-        android:hint="Enter your Url here"
+        android:hint="Enter your url here"
         android:inputType="textUri"
         android:singleLine="true" />
 

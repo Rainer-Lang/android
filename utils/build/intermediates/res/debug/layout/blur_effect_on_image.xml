@@ -30,4 +30,4 @@
         android:text="Create Blur Image"
         android:textAppearance="?android:attr/textAppearanceMedium" />
 
-</RelativeLayout><!-- From: file:/F:/Workspace/CommonSDK/Multidots/CommonSDKGIT/utils/src/main/res/layout/blur_effect_on_image.xml -->
+</RelativeLayout><!-- From: file:/F:/Workspace/CommonSDK/Multidots/android/utils/src/main/res/layout/blur_effect_on_image.xml -->

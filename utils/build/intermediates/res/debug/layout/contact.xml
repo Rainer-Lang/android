@@ -68,4 +68,4 @@
         android:divider="#e4e4e4"
         android:dividerHeight="2px"
         android:scrollingCache="false" />
-</LinearLayout>  <!-- From: file:/F:/Workspace/CommonSDK/Multidots/CommonSDKGIT/utils/src/main/res/layout/contact.xml -->
+</LinearLayout>  <!-- From: file:/F:/Workspace/CommonSDK/Multidots/android/utils/src/main/res/layout/contact.xml -->

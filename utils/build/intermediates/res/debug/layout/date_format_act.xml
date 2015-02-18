@@ -10,7 +10,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:text="Date Formats"
+        android:text="Date formats"
         android:textAppearance="?android:attr/textAppearanceLarge" />
 
     <TextView
@@ -121,6 +121,7 @@
         android:layout_below="@+id/tvDateFormate_yyyyMMddTHHmmssSSSZ"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="20dp"
-        android:text="Get Date Formats" />
+        android:text="Get date formats" />
 
-</RelativeLayout><!-- From: file:/F:/Workspace/CommonSDK/Multidots/CommonSDKGIT/utils/src/main/res/layout/date_format_act.xml -->
+</RelativeLayout>
+<!-- From: file:/F:/Workspace/CommonSDK/Multidots/android/utils/src/main/res/layout/date_format_act.xml -->

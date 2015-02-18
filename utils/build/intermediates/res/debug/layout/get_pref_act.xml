@@ -12,7 +12,7 @@
         android:layout_centerHorizontal="true"
         android:layout_margin="20dp"
         android:padding="10dp"
-        android:text="Get Preferences"
+        android:text="Get preferences"
         android:textAppearance="?android:attr/textAppearanceLarge" />
 
 
@@ -22,7 +22,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/textView1"
         android:padding="10dp"
-        android:text="String Pref:"
+        android:text="String preferences: "
         android:textAppearance="?android:attr/textAppearanceMedium" />
 
     <EditText
@@ -43,7 +43,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/et_GetStringPref"
         android:padding="10dp"
-        android:text="Integer Pref:"
+        android:text="Integer preferences: "
         android:textAppearance="?android:attr/textAppearanceMedium" />
 
     <EditText
@@ -63,7 +63,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/et_GetIntegerPref"
         android:padding="10dp"
-        android:text="Long Pref:"
+        android:text="Long preferences: "
         android:textAppearance="?android:attr/textAppearanceMedium" />
 
     <EditText
@@ -83,7 +83,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/et_GetLongPref"
         android:padding="10dp"
-        android:text="Boolean Pref:"
+        android:text="Boolean preferences: "
         android:textAppearance="?android:attr/textAppearanceMedium" />
 
     <CheckBox
@@ -102,7 +102,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/cb_GetBoolean"
         android:padding="10dp"
-        android:text="Float Pref:"
+        android:text="Float preferences: "
         android:textAppearance="?android:attr/textAppearanceMedium" />
 
     <EditText
@@ -123,7 +123,7 @@
         android:layout_below="@+id/et_GetFloatPref"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="58dp"
-        android:text="Get Preferences"
+        android:text="Get preferences"
         android:textAppearance="?android:attr/textAppearanceMedium" />
 
     <Button
@@ -132,8 +132,8 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/btn_GetPref"
         android:layout_centerHorizontal="true"
-        android:text="Remove All Preferences"
+        android:text="Remove all preferences"
         android:textAppearance="?android:attr/textAppearanceMedium" />
 
-
-</RelativeLayout><!-- From: file:/F:/Workspace/CommonSDK/Multidots/CommonSDKGIT/utils/src/main/res/layout/get_pref_act.xml -->
+</RelativeLayout>
+<!-- From: file:/F:/Workspace/CommonSDK/Multidots/android/utils/src/main/res/layout/get_pref_act.xml -->

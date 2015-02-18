@@ -12,7 +12,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="20dp"
         android:padding="10dp"
-        android:text="Create Folder"
+        android:text="Create folder"
         android:textAppearance="?android:attr/textAppearanceLarge" />
 
     <TextView

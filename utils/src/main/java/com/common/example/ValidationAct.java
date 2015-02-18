@@ -40,9 +40,9 @@ public class ValidationAct extends Activity {
             @Override
             public void onClick(View v) {
                 if (Common.isEmptyEditText(etEmpty))
-                    Toast.makeText(mContext, "EditText is Empty", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(mContext, "Edittext is empty.", Toast.LENGTH_SHORT).show();
                 else
-                    Toast.makeText(mContext, "EditText is Not Empty", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(mContext, "Edittext is not empty.", Toast.LENGTH_SHORT).show();
             }
         });
 
@@ -52,13 +52,13 @@ public class ValidationAct extends Activity {
             public void onClick(View v) {
                 // TODO Auto-generated method stub
                 if (Common.isEmptyEditText(etEmpty)) {
-                    Toast.makeText(mContext, "Please Enter your email.", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(mContext, "Please enter your email.", Toast.LENGTH_SHORT).show();
                 } else {
                     if (Common
                             .isEmailIdValid(etEmpty.getText().toString())) {
-                        Toast.makeText(mContext, "Your email is valid", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(mContext, "Your email is valid.", Toast.LENGTH_SHORT).show();
                     } else {
-                        Toast.makeText(mContext, "Your email is NOT valid", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(mContext, "Your email is not valid.", Toast.LENGTH_SHORT).show();
                     }
                 }
 

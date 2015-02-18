@@ -12,7 +12,7 @@
         android:layout_centerHorizontal="true"
         android:layout_margin="20dp"
         android:padding="10dp"
-        android:text="Set Preferences"
+        android:text="Set preferences"
         android:textAppearance="?android:attr/textAppearanceLarge" />
 
 
@@ -22,7 +22,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/textView1"
         android:padding="10dp"
-        android:text="String Pref:"
+        android:text="String preferences: "
         android:textAppearance="?android:attr/textAppearanceMedium" />
 
     <EditText
@@ -33,7 +33,7 @@
         android:layout_marginLeft="20dp"
         android:layout_toRightOf="@id/textView2"
         android:ems="10"
-        android:hint="Enter String Pref"
+        android:hint="Enter string preferences."
         android:inputType="text"
         android:singleLine="true" />
 
@@ -44,7 +44,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/etStringPref"
         android:padding="10dp"
-        android:text="Integer Pref:"
+        android:text="Integer preferences: "
         android:textAppearance="?android:attr/textAppearanceMedium" />
 
     <EditText
@@ -54,7 +54,7 @@
         android:layout_alignLeft="@id/etStringPref"
         android:layout_below="@+id/etStringPref"
         android:ems="10"
-        android:hint="Enter Integer Pref"
+        android:hint="Enter integer preferences."
         android:inputType="number"
         android:singleLine="true" />
 
@@ -65,7 +65,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/etIntegerPref"
         android:padding="10dp"
-        android:text="Long Pref:"
+        android:text="Long preferences: "
         android:textAppearance="?android:attr/textAppearanceMedium" />
 
     <EditText
@@ -75,10 +75,9 @@
         android:layout_alignLeft="@id/etStringPref"
         android:layout_below="@+id/etIntegerPref"
         android:ems="10"
-        android:hint="Enter Long Pref"
+        android:hint="Enter long preferences."
         android:inputType="number"
         android:singleLine="true" />
-
 
     <TextView
         android:id="@+id/textView5"
@@ -86,7 +85,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/etLongPref"
         android:padding="10dp"
-        android:text="Boolean Pref:"
+        android:text="Boolean preferences: "
         android:textAppearance="?android:attr/textAppearanceMedium" />
 
     <CheckBox
@@ -104,7 +103,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/cbBoolean"
         android:padding="10dp"
-        android:text="Float Pref:"
+        android:text="Float preferences: "
         android:textAppearance="?android:attr/textAppearanceMedium" />
 
     <EditText
@@ -114,7 +113,7 @@
         android:layout_alignLeft="@id/etStringPref"
         android:layout_below="@id/cbBoolean"
         android:ems="10"
-        android:hint="Enter Float Pref"
+        android:hint="Enter float preferences."
         android:inputType="numberDecimal"
         android:singleLine="true" />
 
@@ -126,7 +125,7 @@
         android:layout_below="@+id/etFloatPref"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="58dp"
-        android:text="Set Prefrences"
+        android:text="Set preferences"
         android:textAppearance="?android:attr/textAppearanceMedium" />
 
 </RelativeLayout>

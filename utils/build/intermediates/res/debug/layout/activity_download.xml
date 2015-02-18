@@ -18,7 +18,7 @@
         android:layout_centerVertical="true"
         android:background="#009688"
         android:padding="10dp"
-        android:text=" Get File Size"
+        android:text=" Get file size"
         android:textColor="@android:color/white"
         android:textSize="22sp" />
 
@@ -32,10 +32,10 @@
         android:layout_margin="20dp"
         android:background="#009688"
         android:padding="10dp"
-        android:text="Download  File"
+        android:text="Download file"
         android:textColor="@android:color/white"
         android:textSize="22sp" />
 
 
 </RelativeLayout>
-<!-- From: file:/F:/Workspace/CommonSDK/Multidots/CommonSDKGIT/utils/src/main/res/layout/activity_download.xml -->
+<!-- From: file:/F:/Workspace/CommonSDK/Multidots/android/utils/src/main/res/layout/activity_download.xml -->

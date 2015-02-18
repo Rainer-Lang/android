@@ -34,26 +34,24 @@ public class SetPrefAct extends Activity {
     }
 
     private void init() {
-        // TODO Auto-generated method stub
         cbBoolean = (CheckBox) findViewById(R.id.cbBoolean);
 
         cbBoolean.setOnClickListener(new View.OnClickListener() {
 
             @Override
             public void onClick(View v) {
-                // TODO Auto-generated method stub
                 if (cbBoolean.isChecked()) {
                     cbBoolean.setText("True");
                     isCbSelected = true;
-                    Toast.makeText(mContext, "Selected true" + isCbSelected,
-                            Toast.LENGTH_LONG).show();
+//                    Toast.makeText(mContext, "Selected true" + isCbSelected + ".",
+//                            Toast.LENGTH_LONG).show();
 
                     // cbBoolean.setChecked(true);
                 } else {
                     cbBoolean.setText("False");
                     isCbSelected = false;
-                    Toast.makeText(mContext, "Selected" + isCbSelected,
-                            Toast.LENGTH_LONG).show();
+//                    Toast.makeText(mContext, "Selected " + isCbSelected + ".",
+//                            Toast.LENGTH_LONG).show();
 
                     // cbBoolean.setChecked(false);
                 }
@@ -71,7 +69,6 @@ public class SetPrefAct extends Activity {
 
             @Override
             public void onClick(View v) {
-                // TODO Auto-generated method stub
                 if (!Common.isEmptyEditText(etStringPref)
                         && !Common.isEmptyEditText(etIntegerPref)
                         && !Common.isEmptyEditText(etLongPref)
@@ -83,9 +80,9 @@ public class SetPrefAct extends Activity {
                     Common.setLongPrefrences(mContext, "longPref", Long.parseLong(etLongPref.getText().toString()), getString(R.string.app_name));
                     Common.setBooleanPrefrences(mContext, "booleanPref", isCbSelected, getString(R.string.app_name));
                     Common.setFloatPrefrences(mContext, "floatPref", Float.parseFloat(etFloatPref.getText().toString()), getString(R.string.app_name));
-                    Toast.makeText(mContext, "All Prefrences are set.", Toast.LENGTH_LONG).show();
+                    Toast.makeText(mContext, "All preferences are set.", Toast.LENGTH_LONG).show();
                 } else {
-                    Toast.makeText(mContext, "Please Enter Data", Toast.LENGTH_LONG).show();
+                    Toast.makeText(mContext, "All fields are required to be filled.", Toast.LENGTH_LONG).show();
                 }
             }
         });

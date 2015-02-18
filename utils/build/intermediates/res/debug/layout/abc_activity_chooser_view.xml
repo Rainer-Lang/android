@@ -26,4 +26,4 @@
 
     <include layout="@layout/abc_activity_chooser_view_include" />
 
-</android.support.v7.widget.LinearLayoutCompat><!-- From: file:/F:/Workspace/CommonSDK/Multidots/CommonSDKGIT/utils/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/layout/abc_activity_chooser_view.xml -->
+</android.support.v7.widget.LinearLayoutCompat><!-- From: file:/F:/Workspace/CommonSDK/Multidots/android/utils/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/layout/abc_activity_chooser_view.xml -->

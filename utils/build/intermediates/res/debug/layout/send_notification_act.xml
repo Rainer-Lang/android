@@ -51,4 +51,4 @@
         android:text="Send"
         android:textAppearance="?android:attr/textAppearanceMedium" />
 
-</RelativeLayout><!-- From: file:/F:/Workspace/CommonSDK/Multidots/CommonSDKGIT/utils/src/main/res/layout/send_notification_act.xml -->
+</RelativeLayout><!-- From: file:/F:/Workspace/CommonSDK/Multidots/android/utils/src/main/res/layout/send_notification_act.xml -->

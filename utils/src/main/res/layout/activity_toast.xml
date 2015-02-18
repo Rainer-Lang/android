@@ -12,7 +12,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="20dp"
         android:padding="10dp"
-        android:text="Show Toast / Dialog"
+        android:text="Show toast/dialog"
         android:textAppearance="?android:attr/textAppearanceLarge" />
 
     <TextView
@@ -23,7 +23,7 @@
         android:layout_below="@+id/tvTitle"
         android:layout_marginTop="20dp"
         android:padding="10dp"
-        android:text="Default Message is :  Hello World!"
+        android:text="Default message is :  Hello world!"
         android:textAppearance="?android:attr/textAppearanceMedium" />
 
     <TextView
@@ -44,7 +44,7 @@
         android:layout_marginTop="20dp"
         android:layout_toRightOf="@id/tv_address"
         android:ems="10"
-        android:hint="Enter Message"
+        android:hint="Enter message"
         android:inputType="textUri"
         android:singleLine="true" />
 
@@ -56,7 +56,7 @@
         android:layout_below="@id/et_address"
         android:layout_centerHorizontal="true"
         android:layout_margin="20dp"
-        android:text="Show Toast"
+        android:text="Show toast"
         android:textAppearance="?android:attr/textAppearanceMedium" />
 
 
@@ -66,8 +66,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/btnOpenMap"
         android:layout_centerHorizontal="true"
-        android:text="Show Dialog"
+        android:text="Show dialog"
         android:textAppearance="?android:attr/textAppearanceMedium" />
-
 
 </RelativeLayout>

@@ -36,7 +36,6 @@ public class BackGroundMusicStartStopAct extends Activity {
 
             @Override
             public void onClick(View v) {
-                // TODO Auto-generated method stub
                 Common.backgroundMusicStart(mContext);
                 btnStart.setEnabled(false);
                 btnStop.setEnabled(true);
@@ -47,7 +46,6 @@ public class BackGroundMusicStartStopAct extends Activity {
 
             @Override
             public void onClick(View v) {
-                // TODO Auto-generated method stub
                 Common.backgroundMusicStop(mContext);
                 btnStart.setEnabled(true);
                 btnStop.setEnabled(false);

@@ -10,7 +10,7 @@
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="20dp"
-        android:text="Postfix For Number"
+        android:text="Postfix for number"
         android:textAppearance="?android:attr/textAppearanceLarge" />
 
 
@@ -32,7 +32,7 @@
         android:layout_marginTop="78dp"
         android:layout_toRightOf="@id/tv_Number"
         android:ems="10"
-        android:hint="Enter Your Number"
+        android:hint="Enter number"
         android:inputType="number"
         android:singleLine="true" />
 
@@ -56,4 +56,5 @@
         android:layout_margin="20dp"
         android:text="Enter"
         android:textAppearance="?android:attr/textAppearanceMedium" />
-</RelativeLayout><!-- From: file:/F:/Workspace/CommonSDK/Multidots/CommonSDKGIT/utils/src/main/res/layout/post_fix_for_number_act.xml -->
+</RelativeLayout>
+<!-- From: file:/F:/Workspace/CommonSDK/Multidots/android/utils/src/main/res/layout/post_fix_for_number_act.xml -->

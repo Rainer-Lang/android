@@ -57,4 +57,4 @@
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:textColor="#333333"
         android:visibility="gone" />
-</RelativeLayout><!-- From: file:/F:/Workspace/CommonSDK/Multidots/CommonSDKGIT/utils/src/main/res/layout/contact_list.xml -->
+</RelativeLayout><!-- From: file:/F:/Workspace/CommonSDK/Multidots/android/utils/src/main/res/layout/contact_list.xml -->

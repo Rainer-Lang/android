@@ -55,10 +55,10 @@ public class DateDifferenceActivity extends Activity {
             @Override
             public void onClick(View v) {
                 if (TextUtils.isEmpty(tvDate1.getText().toString()) | TextUtils.isEmpty(tvDate2.getText().toString()))
-                    Common.showAlertDialog(mContext, "", "Please select both dates", true);
+                    Common.showAlertDialog(mContext, "", "Please select both dates.", true);
                 else {
                     long diff = Common.calculateDays(Common.stringToDate(tvDate1.getText().toString(), "dd/MM/yyy"), Common.stringToDate(tvDate2.getText().toString(), "dd/MM/yyy"));
-                    tvDifference.setText("Difference is " + diff + " days");
+                    tvDifference.setText("Difference is " + diff + " days.");
                 }
             }
         });

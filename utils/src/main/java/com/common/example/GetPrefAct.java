@@ -49,8 +49,6 @@ public class GetPrefAct extends Activity {
 
             @Override
             public void onClick(View v) {
-                // TODO Auto-generated method stub
-
                 // Common.getStringPrefrences(mContext, "strPref");
                 // Common.getIntPrefrences(mContext, "intPref");
                 // Common.getLongPrefrences(mContext, "longPref");
@@ -65,17 +63,17 @@ public class GetPrefAct extends Activity {
 
                     if (Common.getBooleanPrefrences(mContext, "booleanPref", getString(R.string.app_name))) {
                         cb_GetBoolean.setText("True");
-                        Toast.makeText(mContext, "Selected true" + Common.getBooleanPrefrences(mContext, "booleanPref", getString(R.string.app_name)), Toast.LENGTH_LONG).show();
+//                        Toast.makeText(mContext, "Selected true" + Common.getBooleanPrefrences(mContext, "booleanPref", getString(R.string.app_name)), Toast.LENGTH_LONG).show();
 
                         cb_GetBoolean.setChecked(true);
                     } else {
                         cb_GetBoolean.setText("False");
-                        Toast.makeText(mContext, "Selected" + Common.getBooleanPrefrences(mContext, "booleanPref", getString(R.string.app_name)), Toast.LENGTH_LONG).show();
+//                        Toast.makeText(mContext, "Selected" + Common.getBooleanPrefrences(mContext, "booleanPref", getString(R.string.app_name)), Toast.LENGTH_LONG).show();
 
                         cb_GetBoolean.setChecked(false);
                     }
                 } else {
-                    Toast.makeText(mContext, "Please Sets Prefrences", Toast.LENGTH_LONG).show();
+                    Toast.makeText(mContext, "Please set preferences.", Toast.LENGTH_LONG).show();
                 }
 
             }

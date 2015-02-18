@@ -12,7 +12,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="20dp"
         android:padding="10dp"
-        android:text="Create Folder"
+        android:text="Create folder"
         android:textAppearance="?android:attr/textAppearanceLarge" />
 
     <TextView
@@ -61,4 +61,4 @@
 
 
 </RelativeLayout>
-<!-- From: file:/F:/Workspace/CommonSDK/Multidots/CommonSDKGIT/utils/src/main/res/layout/activity_create_folder.xml -->
+<!-- From: file:/F:/Workspace/CommonSDK/Multidots/android/utils/src/main/res/layout/activity_create_folder.xml -->

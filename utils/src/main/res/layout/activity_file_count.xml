@@ -23,7 +23,7 @@
         android:layout_below="@+id/tvTitle"
         android:layout_marginTop="20dp"
         android:padding="10dp"
-        android:text="Default Folder is :  mnt/sdcard"
+        android:text="Default folder is :  mnt/sdcard"
         android:textAppearance="?android:attr/textAppearanceMedium" />
 
     <TextView
