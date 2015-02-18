@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="Bluetooth/Wifi on off."
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <Button
+        android:id="@+id/btnBluetoothOnOff"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btnWifiOnOff"
+        android:layout_marginTop="43dp"
+        android:text="Bluetooth Off"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <Button
+        android:id="@+id/btnWifiOnOff"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnBluetoothOnOff"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp"
+        android:text="Wifi Off"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+
+</RelativeLayout><!-- From: file:/F:/Workspace/CommonSDK/Multidots/CommonSDKGIT/utils/src/main/res/layout/bluetooth_on_off.xml -->

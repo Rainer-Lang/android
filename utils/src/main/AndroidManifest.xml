@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.common.utils"
+    android:versionCode="1"
+    android:versionName="1.0">
+
+    <uses-sdk
+        android:minSdkVersion="10"
+        android:targetSdkVersion="20" />
+
+    <!-- device id -->
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <!-- get location -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_GPS" />
+    <!-- auto lock -->
+    <uses-permission android:name="android.permission.DISABLE_KEYGUARD" />
+    <!-- sdcard use -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <!-- on wifi n bluetooth -->
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait">
+            <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <service
+            android:name=".BackgroundMusicService"
+            android:enabled="true"
+            android:process=":remote">
+            <intent-filter>
+            <action android:name=".BackgroundMusicService" />
+            </intent-filter>
+        </service>
+
+        <activity
+            android:name="com.common.example.ValidationAct"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.common.example.DateFormateAct"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.common.example.SetPrefAct"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.common.example.GetPrefAct"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.common.example.GetCurrentLocationAct"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.common.example.PinchZoomImageViewAct"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.common.example.AppIconAct"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.common.example.SendLocatoNotificationAct"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.common.example.SendE_MailAct"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.common.example.ScreenModeDis_Ean_Act"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.common.example.OpenUrlINBrowserAct"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.common.example.DownloadImageFromUrlAct"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.common.example.BackGroundMusicStartStopAct"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.common.example.BluetoothOrWifiOnOffAct"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.common.example.GetRandomNumberAct"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.common.example.PostFixForNumberAct"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.common.example.blurEffectsOnDrawableAct"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.common.example.UrlValidationRippleActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.common.example.CommonActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".social.LinkedInActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ProfileActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.common.example.ArraylistToStringActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.common.example.BlurEffectActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.common.example.DrawableToBitmapActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.common.example.SaveImageInPreference"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.common.example.VerticalTextViewsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.common.example.RoundedBitmapActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.common.example.PreventClickActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.common.example.PickCaptureActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.common.example.EmailContactsScreenShotActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.common.example.ImageVideoActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.common.example.AddressOnMapActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.common.example.CreateFolderActivity"
+            android:label="@string/title_activity_create_folder" />
+        <activity
+            android:name="com.common.example.DateDifferenceActivity"
+            android:label="@string/title_activity_date_difference" />
+        <activity
+            android:name="com.common.example.StringToDateActivity"
+            android:label="@string/title_activity_string_to_date" />
+        <activity
+            android:name="com.common.example.ToastActivity"
+            android:label="@string/title_activity_toast" />
+        <activity
+            android:name="com.common.example.ChooseProfileActivity"
+            android:label="@string/title_activity_choose_profile" />
+        <activity
+            android:name="com.common.example.VolumeActivity"
+            android:label="@string/title_activity_volume" />
+        <activity
+            android:name="com.common.example.FileCountActivity"
+            android:label="@string/title_activity_file_count" />
+        <activity
+            android:name="com.common.example.ColorPickerActivity"
+            android:label="@string/title_activity_color_picker" />
+        <activity
+            android:name="com.common.example.DownloadActivity"
+            android:label="@string/title_activity_download"></activity>
+    </application>
+
+</manifest>

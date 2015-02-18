@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="20dp"
+        android:padding="10dp"
+        android:text="Set Preferences"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView1"
+        android:padding="10dp"
+        android:text="String Pref:"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <EditText
+        android:id="@+id/etStringPref"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView1"
+        android:layout_marginLeft="20dp"
+        android:layout_toRightOf="@id/textView2"
+        android:ems="10"
+        android:hint="Enter String Pref"
+        android:inputType="text"
+        android:singleLine="true" />
+
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etStringPref"
+        android:padding="10dp"
+        android:text="Integer Pref:"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <EditText
+        android:id="@+id/etIntegerPref"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/etStringPref"
+        android:layout_below="@+id/etStringPref"
+        android:ems="10"
+        android:hint="Enter Integer Pref"
+        android:inputType="number"
+        android:singleLine="true" />
+
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etIntegerPref"
+        android:padding="10dp"
+        android:text="Long Pref:"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <EditText
+        android:id="@+id/etLongPref"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/etStringPref"
+        android:layout_below="@+id/etIntegerPref"
+        android:ems="10"
+        android:hint="Enter Long Pref"
+        android:inputType="number"
+        android:singleLine="true" />
+
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etLongPref"
+        android:padding="10dp"
+        android:text="Boolean Pref:"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <CheckBox
+        android:id="@+id/cbBoolean"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/etStringPref"
+        android:layout_below="@id/etLongPref"
+        android:padding="10dp"
+        android:text="False" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cbBoolean"
+        android:padding="10dp"
+        android:text="Float Pref:"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <EditText
+        android:id="@+id/etFloatPref"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/etStringPref"
+        android:layout_below="@id/cbBoolean"
+        android:ems="10"
+        android:hint="Enter Float Pref"
+        android:inputType="numberDecimal"
+        android:singleLine="true" />
+
+
+    <Button
+        android:id="@+id/btnSetPref"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etFloatPref"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="58dp"
+        android:text="Set Prefrences"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+</RelativeLayout>

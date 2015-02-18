@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="Postfix For Number"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+
+    <TextView
+        android:id="@+id/tv_Number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvTitle"
+        android:layout_marginTop="78dp"
+        android:padding="10dp"
+        android:text="Number : "
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <EditText
+        android:id="@+id/et_FixNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvTitle"
+        android:layout_marginTop="78dp"
+        android:layout_toRightOf="@id/tv_Number"
+        android:ems="10"
+        android:hint="Enter Your Number"
+        android:inputType="number"
+        android:singleLine="true" />
+
+
+    <TextView
+        android:id="@+id/tvFixNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView1"
+        android:layout_below="@+id/et_FixNumber"
+        android:layout_marginTop="20dp"
+        android:padding="10dp"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <Button
+        android:id="@+id/btn_FixNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvFixNumber"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="20dp"
+        android:text="Enter"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+</RelativeLayout><!-- From: file:/F:/Workspace/CommonSDK/Multidots/CommonSDKGIT/utils/src/main/res/layout/post_fix_for_number_act.xml -->

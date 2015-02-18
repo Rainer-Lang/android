@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Utils Example</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_arraylist_to_string">ArraylistToString</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_blur_effect">BlurEffectActivity</string>
+    <string name="title_activity_drawable_to_bitmap">DrawableToBitmapActivity</string>
+    <string name="title_activity_save_image_in_preference">SaveImageInPreference</string>
+    <string name="title_activity_vertical_text_views">VerticalTextViewsActivity</string>
+    <string name="title_activity_rounded_bitmap">RoundedBitmapActivity</string>
+    <string name="title_activity_prevent_click">PreventClickActivity</string>
+    <string name="title_activity_pick_capture">PickCaptureActivity</string>
+    <string name="title_activity_email_contacts_screen_shot">EmailContactsScreenShotActivity</string>
+    <string name="title_activity_image_video">ImageVideoActivity</string>
+    <string name="title_activity_address_on_map">AddressOnMapActivity</string>
+    <string name="title_activity_create_folder">CreateFolderActivity</string>
+    <string name="title_activity_date_difference">DateDifferenceActivity</string>
+    <string name="title_activity_string_to_date">StringToDateActivity</string>
+    <string name="title_activity_toast">ToastActivity</string>
+    <string name="title_activity_choose_profile">ChooseProfileActivity</string>
+    <string name="title_activity_volume">VolumeActivity</string>
+    <string name="title_activity_file_count">FileCountActivity</string>
+    <string name="title_activity_color_picker">ColorPickerActivity</string>
+    <string name="title_activity_download">DownloadActivity</string>
+
+</resources>

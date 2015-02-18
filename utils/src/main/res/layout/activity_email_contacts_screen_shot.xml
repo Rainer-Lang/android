@@ -1,0 +1,44 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical"
+    tools:context="com.common.example.EmailContactsScreenShotActivity">
+
+    <!--<ImageView-->
+    <!--android:id="@+id/email_iv_screen"-->
+    <!--android:layout_width="200dp"-->
+    <!--android:layout_height="200dp" />-->
+    <com.andexert.library.RippleView xmlns:ripple="http://schemas.android.com/apk/res-auto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_margin="10dp"
+        ripple:rv_centered="false">
+
+        <Button
+            android:id="@+id/screenshot"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#2050aa"
+            android:padding="15dp"
+            android:text="Capture Screen"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@android:color/white" />
+    </com.andexert.library.RippleView>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/email_list_tv"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/white"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#33b5e5" />
+    </ScrollView>
+
+</LinearLayout>
