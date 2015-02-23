@@ -67,4 +67,5 @@ This Project includes following common features.
     Get File Size.
     Download File.
 
-
+You can download the demo apk : https://github.com/CommonUtils/android/blob/master/UtilsDemo.apk
+Refer UtilsExampleExplanation.pdf for learning how to use methods of this SDK. https://github.com/CommonUtils/android/blob/master/UtilsExampleExplanation.pdf 
